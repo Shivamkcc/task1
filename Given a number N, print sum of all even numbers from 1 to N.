@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+
+
+int main(){
+    int n, sum=0;
+    
+    cin >> n;
+    
+    int d = 1;
+    while (d<=n){
+        
+        if(d%2==0) {
+            sum += d;
+          
+          } 
+           d++;  
+        }
+       cout<< sum  << endl;
+}
