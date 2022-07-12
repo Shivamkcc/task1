@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int i, j, rows, d;
+    cout << "";
+    cin >> rows;
+    
+    for (i=rows; i>=1; i--) 
+    {
+        d=i;
+        for (j=1; j<=i; j++) 
+        {
+            cout << d;
+            
+        }
+        d++;
+                cout << endl;
+    }
+}
+
+
